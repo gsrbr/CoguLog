@@ -7,11 +7,13 @@ The project use simples log levels but the CoguLog have built-in sub levels
 - 1 Error
 - 2 Warning
 - 3 Info
-  - 31 Foreign access info
-    - 311 Save log with IP
-    - 312 Save log without IP
-  - 32 Local access info
-    - 311 Save log with IP
-    - 312 Save log without IP
 - 4 Debug
 - 5 Trace
+- 6 Security
+  - 61 Foreign access info
+    - 611 Accepted Connection
+      - 6111 Save log with IP
+      - 6112 Save log without IP
+    - 612 Droped Connection
+      - 6121 Save log with IP
+      - 6122 Save log without IP
